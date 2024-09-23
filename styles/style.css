@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: rgba(249, 247, 243, 1);
+  padding: 0.5rem 0rem 3rem;
+}
+
+.min-width {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+h1 img {
+  margin-right: 1rem;
+}
+
+a {
+  background-color: rgb(180, 244, 97);
+  color: black;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+button:first-child {
+  background-color: rgb(180, 244, 97);
+  border: none;
+}
+
+button:first-child:active {
+  transform: translateY(2px);
+}
+
+button:last-child {
+  background-color: transparent;
+  color: rgba(17, 17, 17, 0.7);
+  border: 1px ridge rgba(165, 165, 165, 0.459);
+}
+
+button:last-child:active {
+  transform: translateY(2px);
+}
+
+.card {
+  display: flex;
+  gap: 2rem;
+  border: 1px ridge rgba(165, 165, 165, 0.459);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+
+aside {
+  display: grid;
+}
+
+.meter {
+  position: relative;
+  background-color: rgba(17, 17, 17, 0.05);
+  padding: 1rem 0.625rem;
+  border-radius: 0.5rem;
+  width: 110px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.meter > p {
+  display: flex;
+  align-items: center;
+  color: rgba(17, 17, 17, 0.7);
+  margin: 0;
+}
+
+p img {
+  margin-right: 0.5rem;
+}
+
+
+aside > p {
+  font-weight: 300;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+input {
+  padding: 1.125rem;
+  border: 1px ridge rgba(17, 17, 17, 0.1);
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  font-family: "Lexend", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(17, 17, 17, 0.4);
+}
+
+.donate-now {
+  background-color: rgb(180, 244, 97);
+}
